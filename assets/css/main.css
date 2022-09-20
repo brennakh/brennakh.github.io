@@ -112,14 +112,14 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		color: #49bf9d;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: peachpuff;
 			text-decoration: none;
 		}
 
@@ -2467,7 +2467,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			border-color: #49bf9d;
-			color: #49bf9d !important;
+			color: #49bf9d;
 		}
 
 		input[type="submit"]:active,
@@ -2476,7 +2476,7 @@ input, select, textarea {
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
 			border-color: #49bf9d;
-			color: #49bf9d !important;
+			color: #49bf9d;
 		}
 
 		input[type="submit"].icon,
