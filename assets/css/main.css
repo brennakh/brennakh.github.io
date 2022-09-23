@@ -85,7 +85,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: rgba(44, 44, 44, 1); /*rgb(51,51,51,0); changed the background color to match the flowers // still doesn't work for some reason */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -137,7 +137,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #efefef; /*og #787878*/
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -208,9 +208,9 @@ input, select, textarea {
 	}
 
 	code {
-		background: #f7f7f7;
+		background: #fff; /*changed the background in code? idk */
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #efefef; /*og #efefef*/
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -2595,7 +2595,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/shenny.JPG");
+		background-image: url("images/overlay.png"), url("../css/images/bwfl\ copy.JPG");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2631,6 +2631,7 @@ input, select, textarea {
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
+			line-height: 2.8em;
 		}
 
 		#header h1 {
@@ -3080,7 +3081,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/shenny.JPG");
+				background-image: url("images/overlay.png"), url("../css/images/bwfl\ copy.JPG");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
