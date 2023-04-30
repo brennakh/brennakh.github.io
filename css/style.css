@@ -1,0 +1,15 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', 'Karla', sans-serif;
+    font-size: 27px;
+    letter-spacing: .2em;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    /* line-height: 1.8; */
+}
