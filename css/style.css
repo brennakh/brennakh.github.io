@@ -1,15 +1,39 @@
 body {
     font-family: 'Karla', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
     font-family: 'Montserrat', 'Karla', sans-serif;
     font-size: 27px;
     letter-spacing: .2em;
+    font-weight: 00;
 }
 
 p {
     font-size: 18px;
     font-weight: 300;
     /* line-height: 1.8; */
+}
+
+a {
+    font-weight: 400;
+}
+
+a:hover {
+    transition: .3s .1s;
+    opacity: .5;
+}
+
+span {
+    font-size: 14px;
+}
+
+.about-div p, .volunteer-div p {
+    line-height: 1.8;
 }
