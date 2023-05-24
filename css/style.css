@@ -12,7 +12,6 @@ h2 {
     font-family: 'Montserrat', 'Karla', sans-serif;
     font-size: 27px;
     letter-spacing: .2em;
-    font-weight: 00;
 }
 
 p {
@@ -21,8 +20,17 @@ p {
     /* line-height: 1.8; */
 }
 
-a {
-    font-weight: 400;
+.card-body a {
+    font-weight: 100;
+}
+
+.about-div a {
+    text-decoration: underline;
+}
+
+.volunteer-div a {
+    color: black;
+    text-decoration: underline;
 }
 
 a:hover {
