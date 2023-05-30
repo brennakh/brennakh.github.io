@@ -24,9 +24,9 @@
     
     <title>Brenna Hettler | Portfolio</title>
 </head>
-<body>
+<body class="background-image">
 
-    <nav class="navbar shadow py-0" style="background-color: #efedea; height: 200px;">
+    <nav class="navbar shadow py-0 background op-city9" style="height: 200px;">
         <div class="container">
             <a href="/" class="navbar-brand mx-auto py-0">
                 <img src="img/logo.png" alt="logo" class="navbar-brand mx-auto py-0" height="200px">
@@ -37,31 +37,40 @@
 
     <!-- ABOUT ME -->
     <section class="p-5">
-        <div class="container">
+        <div class="container layer">
             <h2>nice to meet you</h2>
             <div class="row">
                 <!-- About Text -->
-                <div class="col-md-7 my-3 about-div">
+                <div class="my-3 about-div">
                     <p>I'm a self-taught web developer passionate about privacy, communication, and sustainability.  </p>
                     <p>On weekends, you'll find me at the farmers market by day & local punk shows after dark. I could talk your ear off about Sichuan cuisine, cults, or linguistics.</p>
                     <p>I'm currently looking for my next opportunity! Feel free to connect with me on <a href="#" class="text-dark">LinkedIn</a> or contact me directly at <a href="mailto:brennahettler@outlook.com"  class="text-dark">brennahettler@outlook.com</a>
                     </p>
                 </div>
-                <!-- About Image -->
-                <div class="col-md-5" >
+                <!-- About Image 
+                <div class="col-md-1" >
                     <img 
                         src="./img/profile.JPG" 
                         alt="profile" 
                         class="img-fluid" 
-                        style="border-radius: 50%; max-width: 250px;">
-                </div>
+                        style="border-radius: 50%; max-width: 200px;">
+                </div>-->
             </div>
-            <div><a href="https://flowcv.com/resume/e69qvnoaq8" target="_blank" type="button" class="btn btn-outline-dark btn-light">resume</a></div>
+            <div>
+                <a 
+                    href="https://flowcv.com/resume/e69qvnoaq8" 
+                    target="_blank" 
+                    type="button" 
+                    class="btn btn-outline-dark btn-light"
+                >
+                    resume
+                </a>
+            </div>
         </div>
     </section>
     <!-- PROJECTS -->
     
-    <section class="p-5" style="background-color: #efedea;">
+    <section class="p-5 background op-city9">
         <div class="container">
             <h2>projects</h2>
             <div class="row">
@@ -69,10 +78,12 @@
                 <div class="col-md-6 my-3">
                     <div class="card bg-light">
                         <div class="text-center">
-                            <a href="https://coffeeratio.netlify.app/" target="_blank">
-                                <img src="img/project-coffee-2.png" 
-                                class="card-img-top" 
-                                alt="photo">
+                            <a href="https://coffeeratio.netlify.app/" 
+                                target="_blank">
+                                <img 
+                                    src="img/project-coffee-2.png" 
+                                    class="card-img-top" 
+                                    alt="photo" />
                             </a>
                             <h4 class="card-header">Coffee : Ratio</h4>
                             <div class="card-body">
@@ -102,7 +113,7 @@
                 <div class="col-md-6 my-3">
                     <div class="card bg-light">
                         <div class="text-center">
-                            <a href="#" target="_blank">
+                            <a href="#">
                                 <img src="img/story.png" 
                                 class="card-img-top" 
                                 alt="photo">
@@ -129,25 +140,25 @@
 
     <!-- VOLUNTEER -->
     <section class="p-5">
-        <div class="container">
+        <div class="container layer">
             <h2>volunteer</h2>
             <div class="row">
                 <div class="col volunteer-div">
-                    <p class="my-3">Since summer of 2022, I've been working with <a href="https://www.recoveringfromreligion.org/">Recovering from Religion</a> on their volunteer-led web development team. My primary focus has been updating and implementing new features to the helpline chat application and volunteer management app.</p>   
+                    <p class="my-3">Since summer of 2022, I've been working with <a href="https://www.recoveringfromreligion.org/" target="_blank">Recovering from Religion</a> on their volunteer-led web development team. My primary focus has been updating and implementing new features to the helpline chat application and volunteer management app.</p>   
                     <p>More to come...</p>                 
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
-        <div style="background-color: #efedea;">
+    <footer class="footer background op-city9">
+        <div>
             <ul class="navbar-nav d-flex flex-row justify-content-center py-3">
                 <!-- github -->
                 <li class="nav-item p-2">
                     <a href="https://github.com/brennakh" target="_blank" class="nav-link">
                         <span class="fa-stack fa-1x">
-                            <i class="fa-solid fa-circle fa-stack-2x" style="color:#cbaa9e"></i>
+                            <i class="fa-solid fa-circle fa-stack-2x" style="color: var(--icon-orange)"></i>
                             <i class="fa-brands fa-github fa-stack-1x fa-inverse"></i>
                           </span>
                     </a>
@@ -156,7 +167,7 @@
                 <li class="nav-item p-2">
                     <a href="https://linkedin.com/in/brennahettler" target="_blank" class="nav-link">
                         <span class="fa-stack fa-1x">
-                            <i class="fa-solid fa-circle fa-stack-2x" style="color:#caa0a1"></i>
+                            <i class="fa-solid fa-circle fa-stack-2x" style="color: var(--icon-pink)"></i>
                             <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
                           </span>
                     </a>
@@ -165,7 +176,7 @@
                 <li class="nav-item p-2">
                     <a href="https://twitter.com/100_brens" target="_blank" class="nav-link">
                         <span class="fa-stack fa-1x">
-                            <i class="fa-solid fa-circle fa-stack-2x" style="color:#90A8A6"></i>
+                            <i class="fa-solid fa-circle fa-stack-2x" style="color: var(--icon-blue)"></i>
                             <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
                           </span>
                     </a>
@@ -174,7 +185,7 @@
                 <li class="nav-item p-2">
                     <a href="mailto:brennahettler@outlook.com" target="_blank" class="nav-link">
                         <span class="fa-stack fa-1x">
-                            <i class="fa-solid fa-circle fa-stack-2x" style="color:#aac2aa"></i>
+                            <i class="fa-solid fa-circle fa-stack-2x" style="color: var(--icon-green)"></i>
                             <i class="fa-regular fa-envelope fa-stack-1x fa-inverse"></i>
                           </span>
                     </a>

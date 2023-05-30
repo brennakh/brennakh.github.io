@@ -3,6 +3,37 @@ body {
     scroll-behavior: smooth;
 }
 
+:root {
+    --background: #efedea;
+    --icon-green: #aac2aa;
+    --icon-blue: #90A8A6;
+    --icon-pink: #caa0a1;
+    --icon-orange: #cbaa9e;
+}
+
+.background {
+    background-color: var(--background);
+}
+
+.background-image {
+    background: url(/img/gill.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.op-city9 {
+    opacity: .9;
+}
+
+.layer {
+    background-color: white;
+    opacity: .8;
+    padding: 3%;
+    border-radius: 12px;
+}
+
 nav {
     margin: 0;
     padding: 0;
@@ -16,7 +47,7 @@ h2 {
 
 p {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     /* line-height: 1.8; */
 }
 
