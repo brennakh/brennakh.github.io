@@ -30,8 +30,15 @@ body {
 .layer {
     background-color: white;
     opacity: .8;
-    padding: 3%;
-    border-radius: 12px;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+    .layer {
+        border-radius: 0px;
+        opacity: .9;
+    }
 }
 
 nav {
