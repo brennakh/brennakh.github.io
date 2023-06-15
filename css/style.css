@@ -27,7 +27,7 @@ body {
     opacity: .9;
 }
 
-.layer {
+.layer, h4 {
     background-color: white;
     opacity: .8;
     padding: 1rem;
@@ -48,14 +48,21 @@ nav {
 
 h2 {
     font-family: 'Montserrat', 'Karla', sans-serif;
-    font-size: 27px;
+    font-size: 25px;
+    letter-spacing: .25em;
+}
+
+h4 {
+    font-family: 'Montserrat', 'Karla', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
     letter-spacing: .2em;
+    padding-top: 20px;
 }
 
 p {
     font-size: 18px;
-    font-weight: 400;
-    /* line-height: 1.8; */
+    font-weight: 100;
 }
 
 .card-body a {
