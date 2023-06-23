@@ -23,11 +23,13 @@ body {
     background-size: cover;
 }
 
+/* for header, projects sections */
 .op-city9 {
     opacity: .9;
 }
 
-.layer, h4 {
+/* for about section, h4 */
+.layer {
     background-color: white;
     opacity: .8;
     padding: 1rem;
@@ -39,6 +41,13 @@ body {
         border-radius: 0px;
         opacity: .9;
     }
+}
+
+ h4/*, .rfr-text*/ { 
+    background-color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 25px;
 }
 
 nav {
@@ -78,7 +87,7 @@ p {
     text-decoration: underline;
 }
 
-a:hover {
+a:hover, .hover:hover {
     transition: .3s .1s;
     opacity: .5;
 }
