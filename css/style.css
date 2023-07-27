@@ -66,7 +66,7 @@
     flex-wrap: inherit;
   }
   .postcard__title {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
   .postcard__tagbox {
     justify-content: start;
@@ -96,7 +96,7 @@
     flex-direction: row;
   }
   .postcard:nth-child(2n+0) {
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
   }
   .postcard:nth-child(2n+1) .postcard__text::before {
     left: -12px !important;
@@ -130,7 +130,7 @@ html {
 }
 
 body {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', 'Karla', sans-serif;
 }
 
 :root {
@@ -187,21 +187,23 @@ nav {
 
 h2 {
     font-family: 'Montserrat', 'Karla', sans-serif;
-    font-size: 25px;
+    font-size: 1.5rem;
     letter-spacing: .25em;
+    font-weight: 600;
+    /* text-shadow: 2px 2px 4px #000000; */
 }
 
 h4 {
-    font-family: 'Montserrat', 'Karla', sans-serif;
+    font-family: 'Shrikhand', 'Montserrat', 'Karla', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.5rem;
     letter-spacing: .2em;
     padding-top: 20px;
 }
 
 p {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .card-body a {

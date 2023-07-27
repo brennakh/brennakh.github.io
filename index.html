@@ -18,6 +18,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500&display=swap" rel="stylesheet">
 
+    <!-- Shrikhand font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Shrikhand&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="/img/star.png">
+
     <script src="https://kit.fontawesome.com/a3029ae7da.js" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" href="css/style.css">
@@ -35,17 +42,64 @@
     </nav>
 
     <!-- ABOUT ME -->
-    <section class="p-sm-5 p-3">
+    <section class="my-3 p-3">
         <div class="container">
-            <h2>nice to meet you</h2>
+            <h2 class="mb-3">about</h2>
              <div class="row">
                 <!--About Text-->
                 <div class="col-sm about-div text-wrap ">
-                    <p>Thanks for visiting my web development portfolio. Check out my <a href="#projects" >projects</a> and <a href="#volunteering">volunteer work</a>.</p>
-                    <p>I'm currently looking for my next opportunity! View my resume 
-                        <a href="https://flowcv.com/resume/3v9odps9oc" target="_blank">here</a>.</p> 
-                        <p>
-                        I'd also love to connect with you on <a href="https://linkedin.com/in/brennahettler" target="_blank" class="text-dark">LinkedIn</a> or chat directly at <a href="mailto:brennahettler@outlook.com"  class="text-dark">brennahettler@outlook.com</a></p>
+                    <p>
+                        Thanks for checking out my web development portfolio. 
+                    </p> 
+                    <p>
+                        I'm currently looking for my next opportunity! View my resume 
+                        <a href="https://flowcv.com/resume/3v9odps9oc" target="_blank">here</a>.
+                    </p>
+                    <p>
+                        <!-- Check out my   
+                        <a href="#projects" >projects</a> and 
+                        <a href="#volunteering">volunteer work</a>. -->
+                    </p>
+                    <!-- <p>In my free time you'll likely find me at the farmers market in the morning & local punk shows after dark. I could talk your hear off about linguistics, cults, or Sichuan cuisine.</p> -->
+                   
+                    <ul class="navbar-nav d-flex flex-row justify-content-center">
+                        <!-- github -->
+                        <li class="nav-item p-2">
+                            <a href="https://github.com/brennakh" target="_blank" class="nav-link">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fa-solid fa-circle fa-stack-2x" style="color: var(--icon-orange)"></i>
+                                    <i class="fa-brands fa-github fa-stack-1x fa-inverse"></i>
+                                  </span>
+                            </a>
+                        </li>
+                        <!-- linkedin -->
+                        <li class="nav-item p-2">
+                            <a href="https://linkedin.com/in/brennahettler" target="_blank" class="nav-link">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fa-solid fa-circle fa-stack-2x" style="color: var(--icon-pink)"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                  </span>
+                            </a>
+                        </li>
+                        <!-- twitter -->
+                        <li class="nav-item p-2">
+                            <a href="https://twitter.com/100_brens" target="_blank" class="nav-link">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fa-solid fa-circle fa-stack-2x" style="color: var(--icon-blue)"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                  </span>
+                            </a>
+                        </li>
+                        <!-- email -->
+                        <li class="nav-item p-2">
+                            <a href="mailto:brennahettler@outlook.com" target="_blank" class="nav-link">
+                                <span class="fa-stack fa-1x">
+                                    <i class="fa-solid fa-circle fa-stack-2x" style="color: var(--icon-green)"></i>
+                                    <i class="fa-regular fa-envelope fa-stack-1x fa-inverse"></i>
+                                  </span>
+                            </a>
+                        </li>
+                    </ul>
                     <!-- <div>
                         <ul class="nav justify-content-center">
                             <li class="nav-item">
@@ -62,45 +116,14 @@
     </section>
 
     <!-- PROJECTS -->
-    <section class="p-sm-5 p-3 background" id="projects">
+    <section class="p-3 py-4 background" id="projects">
         <div class="container text-center">
             <h2 class="text-left">projects</h2>
-            <!-- Personal Projects -->
-            <!-- <h4 class="text-center" >projects</h4> -->
 
-                <!-- another example -->
-                <!--<figure class="figure">
-                    <img 
-                        src="img/project-coffee-2.png"
-                        class="figure-img img-fluid rounded" />
-                        <figcaption class="figure-caption">a caption!</figcaption>
-                </figure>
-
-                 <figure class="figure">
-                    
-                        <figcaption class="figure-caption">a caption!</figcaption>
-                </figure>
-
-                <div class="card"> 
-                    <img src="img/pic-hold.jpg" class="card-img" />
-                    <div class="card-img-overlay">
-                        <h4 class="card-title">title</h4>
-                        <p class="card-text">some text at first</p>
-                    </div>
-                </div>
-
-                <div class="col my-3 ">
-                    <div class="card bg-light text-center bg-image ripple">
-                        <img 
-                            src="img/project-coffee-2.png" 
-                            class="" 
-                            alt="photo" />
-                    </div>
-                </div>-->
-
+            <!-- Coffee Ratio Project -->
             <article class="postcard my-4">
                 <a class="postcard__img_link" href="https://github.com/brennakh/coffee-ratio" target="_blank">
-                    <img class="postcard__img" src="img/project-coffee-2.png" alt="Image Title" />
+                    <img class="postcard__img" src="img/square-coffee.png" alt="Image Title" />
                 </a>
                 <div class="postcard__text">
                     <h4 class="postcard__title">Coffee : Ratio</h4>
@@ -126,25 +149,55 @@
                     </ul>
                 </div>
             </article>
+            
+            <!-- Retro Typing Game -->
+            <article class="postcard my-4">
+                <a class="postcard__img_link" href="https://github.com/brennakh/speed-spell" target="_blank">
+                    <img class="postcard__img" src="img/retro.png" alt="Retro Typing Game" />
+                </a>
+                <div class="postcard__text">
+                    <h4 class="postcard__title">Retro Typing Game</h4>
+                    <p class="text-black-50">React | JavaScript | HTML | CSS</p>
+                    <div class="postcard__preview-txt">Type as fast as you can in 15 seconds and see how many words you can get!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><a 
+                            href="https://github.com/brennakh/speed-spell" 
+                            target="_blank"
+                            class="btn">
+                            github 
+                            <i class="fa-brands fa-github"></i>
+                        </a></li>
+                        <!-- <li class="tag__item">
+                            <a 
+                            href="https://coffeeratio.netlify.app/" 
+                            target="_blank"
+                            class="btn"
+                            >live site 
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        </li> -->
+                    </ul>
+                </div>
+            </article>
 
-            <!-- second sample  -->
+            <!-- Drawing Party Project  -->
             <article class="postcard my-4">
                 <a class="postcard__img_link" href="#">
                     <img class="postcard__img" src="img/story.png" alt="Image Title" />
                 </a>
                 <div class="postcard__text">
                     <h4 class="postcard__title">Drawing Party</h4>
-                    <p class="text-black-50">Coming soon</p>
+                    <p class="text-black-50">React | Bootstrap | Rest API</p>
                     <div class="postcard__preview-txt">Personal Capstone Project built with React and Rest APIs</div>
-                    <!-- <ul class="postcard__tagbox">
+                    <ul class="postcard__tagbox">
                         <li class="tag__item"><a 
                             href="#" 
                             target="_blank"
-                            class="btn">
-                            github 
-                            <i class="fa-brands fa-github"></i>
+                            class="btn disabled">
+                            coming soon 
+                            <!-- <i class="fa-brands fa-github"></i> -->
                         </a></li>
-                        <li class="tag__item">
+                        <!-- <li class="tag__item">
                             <a 
                             href="#" 
                             target="_blank"
@@ -152,170 +205,16 @@
                             >live site 
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </a>
-                        </li>
-                    </ul> -->
+                        </li> -->
+                    </ul>
                 </div>
             </article>
-
-                <!-- <div class="card my-3">
-                    <div class="row">
-                        <img src="/img/project-coffee-2.png" class="img-fluid hover col-5 border" style="height: 100%;" alt="...">
-                      <div class="col-7">
-                        <div class="card-body">
-                          <h4 class="card-title">!Coffee : Ratio!</h4>
-                          <p class="text-black-50">JavaScript / HTML / CSS</p>
-                          <p class="card-text">An app that calculates how much waster is needed to brew a pourover</p>
-                          
-                        </div>
-                        <p class="text-right col-sm-text-center px-5 border" style="position: absolute; bottom: 0; right: 0;">
-                            <a 
-                                href="https://github.com/brennakh/coffee-ratio" 
-                                target="_blank"
-                                class="btn">
-                                github 
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a 
-                                href="https://coffeeratio.netlify.app/" 
-                                target="_blank"
-                                class="btn"
-                                >live site 
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </p>
-                      </div>
-                    </div>
-                  </div> 
-
-                  <div class="card mb-3" style="max-width: 800px;">
-                    <div class="row g-0">
-                      <div class="col-md-4 border">
-                        <a href="#">
-                                <img src="img/story.png" 
-                                class="card-img-top" 
-                                alt="photo">
-                            </a>
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h4 class="card-title">Drawing Party</h4>
-                          <p class="text-black-50">JavaScript / HTML / CSS</p>
-                          <p class="card-text">An app that calculates how much waster is needed to bew a pourover</p>
-                          
-                        </div>
-                        <p class="text-right mx-3">
-                            <a 
-                                href="https://github.com/brennakh/coffee-ratio" 
-                                target="_blank"
-                                class="btn">
-                                github 
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a 
-                                href="https://coffeeratio.netlify.app/" 
-                                target="_blank"
-                                class="btn"
-                                >live site 
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>-->
-
-                
-                <!-- Coffee Project 
-                <div class="col-sm-6 my-3 ">
-                   -->
-                    <!-- <div class="card bg-light">
-                        <div class="text-center">
-                                <img 
-                                    src="img/project-coffee-2.png" 
-                                    class="card-img-top hover" 
-                                    alt="photo" />
-                            <h4 class="card-header">Coffee : Ratio</h4>
-                            <div class="card-body">
-                                <span class="text-black-50">JavaScript / HTML / CSS</span>
-                                <p class="card-text">An app that calculates how much water is needed to brew a pourover</p>
-                                <p>
-                                    <a 
-                                        href="https://github.com/brennakh/coffee-ratio" 
-                                        target="_blank"
-                                        class="btn">
-                                        github 
-                                        <i class="fa-brands fa-github"></i>
-                                    </a>
-                                    <a 
-                                        href="https://coffeeratio.netlify.app/" 
-                                        target="_blank"
-                                        class="btn"
-                                        >live site 
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div> 
-                </div>-->
-
-                <!-- Drawing Project 
-                <div class="col my-3">
-                    <div class="card bg-light">
-                        <div class="text-center">
-                            <a href="#">
-                                <img src="img/story.png" 
-                                class="card-img-top" 
-                                alt="photo">
-                            </a>
-                            <h4 class="card-header">Drawing Party</h4>
-                            <div class="card-body">
-                                <span class="text-black-50">Coming Soon</span>
-                                <p>Personal Capstone Project</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-
-                <!-- Group Project 
-                <div class="col-md my-3">
-                   -->
-                    <!-- <div class="card bg-light">
-                        <div class="text-center">
-                            <img src="img/pic-hold.jpg" 
-                                class="card-img-top" 
-                                alt="photo">
-                            <h4 class="card-header">Health Tracker</h4>
-                            <div class="card-body">
-                                <span class="text-black-50">Coming Soon</span>
-                                <p>Group Project</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-            <!-- Profesh Links
-            <div class="text-center">
-                <a href="https://github.com/brennakh?tab=repositories"
-                    target="_blank" 
-                    type="button" 
-                    class="btn btn-outline-dark btn-light m-4 p-3"
-                >
-                    view all work
-                </a>
-                 <a href="https://flowcv.com/resume/e69qvnoaq8" 
-                    target="_blank" 
-                    type="button" 
-                    class="resume btn btn-outline-dark btn-light m-4 p-3"
-                >
-                    resume
-                </a>
-            </div> -->
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="p-sm-5" id="volunteering">
-        <div class="container layer">
+    <!-- VOLUNTEER -->
+    <section class="p-3 my-3" id="volunteering">
+        <div class="container ">
             <h2>volunteer</h2>
             <!-- contact text -->
             <div class="volunteer-div">
